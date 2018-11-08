@@ -43,6 +43,9 @@
           <za-cell hasArrow @click="$router.push('/slider')">
             滑块组件 Slider
           </za-cell>
+           <za-cell hasArrow @click="$router.push('/searchbar')">
+            搜索栏组件 SearchBar
+          </za-cell>
         </za-panel-body>
       </za-panel>
 
@@ -104,7 +107,7 @@
             指示器 Spinner
           </za-cell>
           <za-cell hasArrow @click="$router.push('/swipe')">
-            图片轮播 swipe
+            图片轮播 Swipe
           </za-cell>
           <za-cell hasArrow @click="$router.push('/tabs')">
             标签页 Tabs
